@@ -1,0 +1,27 @@
+fruits = ["apple", "banana", "orange"]
+
+# indexing
+print(fruits[0])  # Output: "apple" (first element)
+print(fruits[1])  # Output: "banana" (second element)
+print(fruits[2])  # Output: "orange" (third element)
+
+# negative indexing
+print(fruits[-1])  # Output: "orange" (last element)
+print(fruits[-2])  # Output: "banana" (second-to-last element)
+print(fruits[-3])  # Output: "apple" (third-to-last element)
+
+
+# slicing
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# Slice from index 1 to index 4 (elements at index 1, 2, and 3)
+print(numbers[1:4])  # Output: [2, 3, 4]
+
+# Slice from index 2 to the end of the list
+print(numbers[2:])  # Output: [3, 4, 5, 6, 7, 8, 9]
+
+# Slice from the beginning to index 4 (elements at index 0, 1, 2, and 3)
+print(numbers[:4])  # Output: [1, 2, 3, 4]
+
+# Slice from index -3 to index -1 (negative indexing works with slicing too)
+print(numbers[-3:-1])  # Output: [7, 8]
