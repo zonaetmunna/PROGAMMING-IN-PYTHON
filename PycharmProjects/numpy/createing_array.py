@@ -10,6 +10,9 @@ print(type(arr))
 zeros_array=np.zeros((3,4))
 print(zeros_array)
 
+# array create numpy.arrange
+range_array=np.arange(0,10,2)
+print(range_array)
 
 
 
